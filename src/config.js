@@ -1,3 +1,5 @@
+const dotenv = require("dotenv").config();
+
 module.exports = {
   TOKEN: process.env.BOT_TOKEN,
   algorithm: process.env.BOT_CIPHER_ALG,
