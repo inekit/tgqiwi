@@ -1,10 +1,12 @@
-function log() {}
+function log(msg) {
+  console.log(msg.message_id);
+}
 
-function getChatID() {
+function getChatID(msg) {
   return msg.chat.id;
 }
 
-function getItemID() {
+function getItemID(sourse) {
   return sourse.substr(2, sourse.length);
 }
 
